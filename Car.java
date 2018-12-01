@@ -36,7 +36,7 @@ public class Car
     {
         distance=engine.calcDistance();
         travelled=travelled+distance;
-        System.out.println("Car with given configurations (Engine Rate:"+engine.getTpl()+" trun/litre | Wheel Radius:"+engine.getRadius()+"in.) can travel "
+        System.out.println("Car with given configurations (Engine Rate:"+engine.getTpl()+" turn/litre | Wheel Radius:"+engine.getRadius()+"in.) can travel "
                 +df.format(distance/100000)+" Km if provided "+engine.getFuel()+" litres of fuel");
     }
     
